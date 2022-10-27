@@ -1,0 +1,29 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product-item{
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 10px;
+}
+.product-item h3{
+    height: 60px;
+    font-size: 18px;
+}
+.product-item p{
+    line-height: 25px;
+}
+.product-item button{
+    width: 100%;
+    padding: 12px;
+    color: white;
+    background: tomato;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}

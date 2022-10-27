@@ -1,0 +1,16 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.cart-container{
+    border: 1px solid tomato;
+    background: rgb(253, 230, 233);
+    padding: 15px;
+}
+
+.cart-container h1{
+    text-align: center;
+    color: tomato;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
